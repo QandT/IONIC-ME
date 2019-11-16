@@ -7,6 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  //TODO: don't use this array, instead import/inject a service and use data from that
+  public errors = [
+    {
+      name: "test1"
+    },
+    {
+      name: "test2"
+    }
+  ];
+
   constructor() {}
 
 }
